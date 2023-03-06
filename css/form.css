@@ -1,15 +1,27 @@
 .body {
-  background-color: #9c9c9c;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.body__background {
+  background: url("../pic/jason-leung-SAYzxuS1O3M-unsplash.jpg");
+  margin:  auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  
 }
 
 .form {
-  background-color: blanchedalmond;
+  background-color: bisque;
   padding: 20px;
   max-width: 1000px;
-  margin: 50px auto;
   border: solid 1px #bbb;
   border-radius: 20px;
+  margin-top: 20%;
 }
 
 .form__legend {
@@ -19,30 +31,24 @@
   border-radius: 20px;
 }
 
-.form__Label{
+.form__Label {
   font-size: 15px;
   margin: 10px;
   width: 200px;
-  display:inline-block;
+  display: inline-block;
 }
 
-.form__button{
+.form__button {
   float: right;
 }
 
-.form__description{
+.form__description {
   text-transform: uppercase;
   font-size: x-small;
 }
 
-.form__result{
+.form__result {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
-
 }
-
-
-
-
-
