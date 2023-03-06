@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}

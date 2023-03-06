@@ -1,0 +1,48 @@
+.body {
+  background-color: #9c9c9c;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form {
+  background-color: blanchedalmond;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 50px auto;
+  border: solid 1px #bbb;
+  border-radius: 20px;
+}
+
+.form__legend {
+  text-align: center;
+  border: solid 2px #bbb;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.form__Label{
+  font-size: 15px;
+  margin: 10px;
+  width: 200px;
+  display:inline-block;
+}
+
+.form__button{
+  float: right;
+}
+
+.form__description{
+  text-transform: uppercase;
+  font-size: x-small;
+}
+
+.form__result{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+
+
+
+
